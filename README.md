@@ -35,6 +35,7 @@ I came up with all this by referring others. Take a look, especially for C++ ver
 <br>https://github.com/postcanonical/Arduino-8x8-Bad-apple/blob/main/Scripts/ii.csv<br>
 <br>https://deepwiki.com/mon/bad_apple_virus/3.1-preprocessing-pipeline-(python)<br>
 <br>https://github.com/mon/bad_apple_virus<br>
+<br>https://github.com/CalvinLoke/bad-apple<br>
 <br>
 <br>
 <br><br>

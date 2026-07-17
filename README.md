@@ -12,7 +12,7 @@ To be really plain, you could just download the json file uploaded here if all y
 # Downloaded video
 I downloaded the BadApple!!.mp4 with this yt-dlp command:
  <br>`yt-dlp -f "mp4" -o "BadApple!!.mp4" https://www.youtube.com/watch?v=FtutLA63Cp8 ` <br>
- You'll need yt-dlp downloaded and added to the path for it to work
+ You'll need yt-dlp downloaded and added to the path for it to work. You could change the format here if you like, or use any of th enumerous yt-dlp flags, maybe using the yt-dlp cheatsheet as a reference.
 
 # Convert the video to png frames
 This command grabs all the frames as png files. Run this command from a terminal inside a folder called "frames" one directory deeper than BAmp4toFrames.py to work with my python code file (or edit the name idc). There'll be 6000+ files so run it in an empty folder. You can modify this command for whatever you need between the downloaded video and isolating the frames. For example, you could convert to .pbm, which encodes black and white as 1 and 0, like the Arduino repo below does.
@@ -34,6 +34,7 @@ I came up with all this by referring others. Take a look, especially for C++ ver
 <br>https://github.com/kevinjycui/bad-apple/blob/master/preprocess/main.py<br>
 <br>https://github.com/postcanonical/Arduino-8x8-Bad-apple/blob/main/Scripts/ii.csv<br>
 <br>https://deepwiki.com/mon/bad_apple_virus/3.1-preprocessing-pipeline-(python)<br>
+<br>https://github.com/mon/bad_apple_virus<br>
 <br>
 <br>
 <br><br>

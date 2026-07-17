@@ -1,11 +1,13 @@
 # What is this?
 I've seen Bad Apple memes on the internet but it always looked intimidating just to get started, and googling didn't make it seem like started code already existed. Fortunately, the process has two distinct parts: getting the Bad Apple data (abstracting it), then adapting it to whatever medium you're trying to put it on. The first part is what this repo is all about, providing all the tools that go into getting the data from downloading the video to having 3D arrays of each frame such that anyone can pull it out of the box or modify the process as needed.
 
-<br><br><br>
+<br>
 To be really plain, you could just download the json file uploaded here if all you need is frame data. It's a 3D array of dimensions 6572x48x36, so:
+
 - `len(json) = 6572`
 - `len(json[0]) = 48`
 - `len(json[0][0]) = 36`
+<br>(something like that)
 
 # Downloaded video
 I downloaded the BadApple!!.mp4 with this yt-dlp command:
